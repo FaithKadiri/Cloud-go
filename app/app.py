@@ -30,7 +30,7 @@ def upload_file():
         conn = psycopg2.connect(
             host=DB_HOST, dbname=DB_NAME, user=DB_USER, password=DB_PASS )
         cur = conn.cursor()
-        cur.execute("INSERT INTO uploads (filename) VALUES(%s)", (filename))
+        cur.execute("INSERT INTO uploads (filename) VALUES(%s)", (filename,))
         conn.commit()
         cur.close()
         conn.close()

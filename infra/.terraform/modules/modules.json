@@ -1,1 +1,3 @@
-{"Modules":[{"Key":"","Source":"","Dir":"."},{"Key":"ec2","Source":"./modules/ec2","Dir":"modules/ec2"}]}
+version https://git-lfs.github.com/spec/v1
+oid sha256:44f052021422ef4fcac7ec635b7a5259d3ca89a77cbbceec4630052301acef11
+size 164
